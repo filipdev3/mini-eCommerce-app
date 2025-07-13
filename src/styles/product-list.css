@@ -1,0 +1,14 @@
+td{
+    height: 40px;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 600;
+    height: 40px;
+}
+
+tr:nth-child(odd){
+    background-color: #e0e0e0;
+}

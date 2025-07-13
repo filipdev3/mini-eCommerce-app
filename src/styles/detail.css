@@ -1,0 +1,11 @@
+.details-btn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+}

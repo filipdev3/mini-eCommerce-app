@@ -1,0 +1,39 @@
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.img-gal {
+    width: 100%;
+}
+
+.right-btn {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+
+.left-btn {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0;
+}

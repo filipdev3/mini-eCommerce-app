@@ -1,0 +1,43 @@
+.product-detail-page {
+    min-height: 100vh;
+}
+
+.prod-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.full-description {
+    color: #b9b5b4;
+    max-width: 600px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.tech-specs {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.tech-specs-row:nth-child(odd){
+    background-color: #b9b5b4;
+}
+
+.tech-specs .key {
+    width: 60%;
+}
+
+.tech-specs .value {
+    width: 40%;
+    text-align: left;
+}
+
+.prod-price {
+    margin-right: 20px;
+}
+
+.label {
+    margin-bottom: 10px;
+}

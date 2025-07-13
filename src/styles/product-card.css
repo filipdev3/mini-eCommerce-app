@@ -1,0 +1,64 @@
+.product-cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-content: center; /* Opcionalno, ako želiš da poravnaš mrežu */
+  gap: 10px;
+  padding: 20px;
+  margin: auto; 
+  max-width: calc(3 * 350px + 2 * 10px);
+  width: 90%;
+  height: 100vh - 100px;
+}
+
+.product-card {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 320px;
+    height: 380px;
+    margin: auto;
+    -webkit-box-shadow: -1px 0px 14px -4px #000000; 
+    box-shadow: -1px 0px 14px -4px #000000;
+}
+
+@media only screen and (max-width: 320px) {
+    .product-card {
+        width: 300px;
+    }
+}
+
+.product-card > img {
+    width: 100%;
+    height: 150px;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-info {
+    margin: 10px 10px 0 10px;
+    
+}
+
+.product-name {
+    text-align: left;
+    margin-bottom: 0;
+    height: 40px;
+}
+
+.short-desc {
+    color: #b9b5b4;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.price {
+    font-weight: 600;
+}

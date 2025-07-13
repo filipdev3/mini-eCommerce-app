@@ -1,0 +1,11 @@
+.add-to-cart-btn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    cursor: pointer;
+}
+
