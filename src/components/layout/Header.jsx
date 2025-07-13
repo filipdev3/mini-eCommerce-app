@@ -16,7 +16,7 @@ export default function Header() {
     
     return(
         <header className="shop-header">
-            <img className="logo" src="/bosch.svg" alt="bosch-icon" />
+            <h2>LOGO</h2>
             <button className="header-cart-button" onClick={() => setShowCart(true)}>
                 <img src="/add-to-cart(2).png" alt="" />
                 <h1 className="number-of-items">{totalItems}</h1>
