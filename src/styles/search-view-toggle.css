@@ -1,6 +1,6 @@
 .search-toggle-view-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 80%;
     gap: 10px;
@@ -8,6 +8,7 @@
 
 .search-bar-holder{
     width: 60%;
+    max-width: 400px;
     margin-right: 0;
     position: relative;
     margin-top: 10px;
@@ -60,7 +61,7 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 767px) {
     .search-toggle-view-section {
         flex-direction: column;
     }

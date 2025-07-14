@@ -140,8 +140,7 @@ export default function ProductListingPage(){
                 <SearchBar onSearch={setSearchTerm} productsFound={filteredProducts.length}/>
 
                 <ViewToggle onChange={setView}/>
-            </section>
-                
+
                 <SortSelect sortOption={sortOption} onChange={setSortOption}/>
 
                 <ItemsPerPageSelect 
@@ -151,6 +150,10 @@ export default function ProductListingPage(){
                         setCurrentPage(1);
                     }}
                 />
+
+            </section>
+                
+                
     
             {
                 products.length > 0
