@@ -116,7 +116,7 @@ export default function ProductListingPage(){
             name={product.name}
             price={product.price}
             shortDescription={product.shortDescription}
-            image={product.images[0]}
+            image={`${import.meta.env.BASE_URL}${product.images[0]}`}
             />
         :
 
@@ -126,7 +126,7 @@ export default function ProductListingPage(){
             name={product.name}
             price={product.price}
             shortDescription={product.shortDescription}
-            image={product.images[0]}
+            image={`${import.meta.env.BASE_URL}${product.images[0]}`}
         />
 
     ))

@@ -27,7 +27,7 @@ export default function CartModal({ onClose }){
                     
                     <div className="price-quantity">
                         <button className="remove-item-btn" onClick={() => removeFromCart(item.id)}>
-                            <img src="/bin_16.png" alt="recycle-bin-icon" />
+                            <img src={`${import.meta.env.BASE_URL}/bin_16.png`} alt="recycle-bin-icon" />
                         </button>
                         <p>{item.quantity} x {item.price}</p>
                         <div className="quantity-btns">

@@ -10,7 +10,7 @@ export default function AddToCart({ product }){
     return (
         <>
             <button className="add-to-cart-btn" onClick={() => setShowModal(true)}>
-                <img src="/add-to-cart(2).png" alt="" />
+                <img src={`${import.meta.env.BASE_URL}/add-to-cart(2).png`} alt="" />
             </button>
 
             {showModal && (

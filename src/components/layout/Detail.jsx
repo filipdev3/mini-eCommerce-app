@@ -11,7 +11,7 @@ export default function Detail({ productId }){
 
     return (
         <button className="details-btn" onClick={goToDetails}>
-            <img src="info.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}/info.png`} alt="info-icon" />
         </button>
     )
 }

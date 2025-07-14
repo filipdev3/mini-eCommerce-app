@@ -12,13 +12,13 @@ export default function Header() {
         state.cartItems.reduce((total, item) => total + item.quantity, 0)
     )
     
-
+    
     
     return(
         <header className="shop-header">
             <h2>LOGO</h2>
             <button className="header-cart-button" onClick={() => setShowCart(true)}>
-                <img src="/add-to-cart(2).png" alt="" />
+                <img src={`${import.meta.env.BASE_URL}/add-to-cart(2).png`} alt="" />
                 <h1 className="number-of-items">{totalItems}</h1>
             </button>
 
