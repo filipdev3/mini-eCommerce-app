@@ -59,7 +59,7 @@ export default function CartModal({ onClose }){
                         <ul className="cart-item-list">
                             {cartItemElements}
                         </ul>
-                        <p className="total-amount">Total: <strong>{total.toFixed(2)}</strong></p>
+                        <p className="total-amount">Total: <strong>${total.toFixed(2)}</strong></p>
                     </>
 
                 }
