@@ -7,4 +7,8 @@ import ProductDetailPage from "../pages/ProductDetailPage";
 export const router = createBrowserRouter([
     {path: `/`, element: <ProductListingPage/>},
     {path: `/product/:id`, element: <ProductDetailPage/>}
-])
+],
+{
+    basename: "/mini-eCommerce-app"
+}
+)
